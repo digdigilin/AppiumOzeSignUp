@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.SetUp">
+        <methods>
+          <include name="nullPassTest"/>
+          <include name="spacePassTest"/>
+          <include name="valBSetupTest"/>
+          <include name="nullBLocTest"/>
+          <include name="nullMobileTest"/>
+          <include name="valWalletTest"/>
+          <include name="nullLNameTest"/>
+          <include name="upperCasePassTest"/>
+          <include name="nullBNameTest"/>
+          <include name="validProfileTest"/>
+          <include name="invalidMobileTest"/>
+          <include name="mismatchPassTest"/>
+          <include name="teardown"/>
+          <include name="emailPrefixTest"/>
+          <include name="nullEmailTest"/>
+          <include name="nullBDescTest"/>
+          <include name="emailSuffixTest"/>
+          <include name="emailSymbolTest"/>
+          <include name="shortPassTest"/>
+          <include name="setup"/>
+          <include name="nullFNameTest"/>
+          <include name="dupMobileTest"/>
+        </methods>
+      </class> <!-- tests.SetUp -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
